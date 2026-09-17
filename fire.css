@@ -19,3 +19,28 @@
     text-align: center;
     color: white;
 }
+.gallery {
+    text-align: center;
+    padding: 40px;
+}
+
+.gallery h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.gallery ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.gallery li img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
