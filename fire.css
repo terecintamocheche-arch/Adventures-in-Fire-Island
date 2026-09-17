@@ -44,3 +44,31 @@
     object-fit: cover;
     border-radius: 10px;
 }
+.call-to-action {
+    text-align: center;
+    padding: 50px;
+}
+
+.call-to-action a {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #2e7d32;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.call-to-action a:hover {
+    opacity: 0.8;
+}
+p {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    color: white;
+    text-align: center;
+    max-width: 750px;
+    margin: 30px auto;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
